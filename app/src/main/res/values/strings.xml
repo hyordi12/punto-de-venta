@@ -1,0 +1,61 @@
+<resources>
+    <!-- App -->
+    <string name="app_name">Punto de Venta</string>
+
+    <!-- Main Activity -->
+    <string name="spinner_hint">Seleccionar Categoría</string>
+    <string name="finalizar_venta">Finalizar Venta</string>
+    <string name="inventario">Inventario</string>
+    <string name="pagar">pagar</string>
+    <string name="seleccionar_categoria">Seleccionar Categoria</string>
+
+    <string name="button_inventory">Inventario</string>
+    <string name="button_exit">Salir</string>
+
+
+
+    <!-- Inventario Activity -->
+    <string name="agregar_categoria">Agregar Categoría</string>
+    <string name="categorias">Categoría</string>
+    <string name="actualizar_categoria">Actualizar Categoría</string>
+    <string name="eliminar_categoria">Eliminar Categoría</string>
+    <string name="button_insert_product">Insertar Producto</string>
+    <string name="productos">Producto</string>
+    <string name="button_update_product">Actualizar Producto</string>
+    <string name="eliminar_producto">Eliminar Producto</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_add_category_title">Agregar Categoría</string>
+    <string name="dialog_update_category_title">Actualizar Categoría</string>
+    <string name="dialog_delete_category_title">Eliminar Categoría</string>
+    <string name="insertar_producto">Insertar Producto</string>
+    <string name="actualizar_producto">Actualizar Producto</string>
+    <string name="dialog_delete_product_title">Eliminar Producto</string>
+    <string name="dialog_product_name_hint">Nombre del Producto</string>
+    <string name="dialog_product_price_hint">Precio</string>
+    <string name="dialog_product_quantity_hint">Cantidad</string>
+    <string name="dialog_product_image_hint">Imagen</string>
+    <string name="dialog_product_id_hint">ID del Producto</string>
+    <string name="dialog_category_name_hint">Nombre de la Categoría</string>
+
+    <!-- Sales Activity -->
+    <string name="sales_total">Total: $</string>
+
+    <!-- Errors -->
+    <string name="error_empty_fields">Todos los campos deben estar llenos</string>
+    <string name="error_product_id_empty">El ID del producto no puede estar vacío</string>
+    <string name="product_added_success">Producto agregado con éxito</string>
+    <string name="product_updated_success">Producto actualizado con éxito</string>
+    <string name="product_deleted_success">Producto eliminado con éxito</string>
+    <string name="category_added_success">Categoría agregada con éxito</string>
+    <string name="category_updated_success">Categoría actualizada con éxito</string>
+    <string name="category_deleted_success">Categoría eliminada con éxito</string>
+    <string name="error_adding_category">Error al agregar la categoría</string>
+    <string name="error_updating_category">Error al actualizar la categoría</string>
+    <string name="error_deleting_category">Error al eliminar la categoría</string>
+    <string name="error_updating_product">Error al actualizar el producto</string>
+    <string name="error_deleting_product">Error al eliminar el producto</string>
+
+    <!-- Placeholders -->
+    <string name="placeholder_image">placeholder_image</string>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <!-- Panel izquierdo para categorías -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/categorias"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/buttonAgregarCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/agregar_categoria"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/buttonActualizarCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/actualizar_categoria"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/buttonEliminarCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/eliminar_categoria"/>
+    </LinearLayout>
+
+    <!-- Panel derecho para productos -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/productos"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/buttonInsertarProducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/insertar_producto"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/buttonActualizarProducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/actualizar_producto"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/buttonEliminarProducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/eliminar_producto"/>
+    </LinearLayout>
+</LinearLayout>
