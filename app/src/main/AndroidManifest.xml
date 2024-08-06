@@ -12,8 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PuntoDeVenta"
         tools:targetApi="31">
+
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,17 +22,18 @@
             </intent-filter>
         </activity>
 
-        <!-- Declaración de la nueva actividad InventarioActivity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
         <activity
             android:name=".InventarioActivity"
             android:exported="true" />
 
-        <!-- Declaración de la nueva actividad SalesSummaryActivity -->
         <activity
             android:name=".SalesSummaryActivity"
             android:exported="true" />
 
-        <!-- Declaración de la nueva actividad VentasActivity -->
         <activity
             android:name=".VentasActivity"
             android:exported="true" />
